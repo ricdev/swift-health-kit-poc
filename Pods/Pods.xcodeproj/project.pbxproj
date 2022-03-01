@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053B205855600C6CE609A2C6829EA158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9720C392A2AF1F352D8A3A77EE3AED52 /* Pods-swift-health-kit-pocTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15589EE23A666215C968667D25EE94 /* Pods-swift-health-kit-pocTests-dummy.m */; };
+		A980ADC34C03B41077EBB1789A9FFF5F /* Pods-swift-health-kit-poc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BB0ABA00F2A3F04443BCC468D68818 /* Pods-swift-health-kit-poc-dummy.m */; };
+		BC25762C1A124D775E20B31121E29F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D487F4F6BC64AB42984693A80518567C /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D133CDF10D88E8B13C6213B1A0C105 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD2C608250B76F60544DA00C935C901 /* Pods-swift-health-kit-poc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83CA56639DA92D7F7EE0C5E641E3CA4 /* Pods-swift-health-kit-poc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7AB1C309CF7F9D3A27C8E01C9D58A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC4DCB4F0B238B41DC65811D882E7AE1 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC2184482DAE349041B83B49F7339A /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-dummy.m */; };
+		F5C7798C4693A193C3865FA9935D83E8 /* Pods-swift-health-kit-pocTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A99B2D9826D5D8993E9669B2459E7789 /* Pods-swift-health-kit-pocTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3F29E704E64CA94498D6BC768066A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE669893BA6EAC7D74074466657AC8C;
+			remoteInfo = "Pods-swift-health-kit-poc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B757424F47FAE803BD8D45492A452F /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests-Info.plist"; sourceTree = "<group>"; };
+		0454A7692EA2EBE412B0E657DFCF1116 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests"; path = Pods_swift_health_kit_poc_swift_health_kit_pocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A93EB04C01FFB820BA47D81EAA9CF5A /* Pods-swift-health-kit-poc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-health-kit-poc-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DE43744FCACEA880070266F9F3F1B83 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		288AAD3617262C588C683B5058F85FF5 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A771AC2C84D31DE3593A3E647BEC78A /* Pods-swift-health-kit-poc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift-health-kit-poc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40C7F2D734116B9E8A03FBC8A75C9A8C /* Pods-swift-health-kit-pocTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-health-kit-pocTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		489B1698488EBAD6C96D577B5B5BC025 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AAC2184482DAE349041B83B49F7339A /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests-dummy.m"; sourceTree = "<group>"; };
+		4F5F94C038EF16FB729A09ACC8B43085 /* Pods-swift-health-kit-poc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift-health-kit-poc.modulemap"; sourceTree = "<group>"; };
+		5483881AA5F2AC77FB88C8892FD24DF4 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D692972865ED5176A0AC2A42CAFA989 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B5FAB31D36A1409E03803A7F26AA39A /* Pods-swift-health-kit-pocTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift-health-kit-pocTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82D133CDF10D88E8B13C6213B1A0C105 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests-umbrella.h"; sourceTree = "<group>"; };
+		8D15589EE23A666215C968667D25EE94 /* Pods-swift-health-kit-pocTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift-health-kit-pocTests-dummy.m"; sourceTree = "<group>"; };
+		907DF9A27F73688A0F814CA651B68C61 /* Pods-swift-health-kit-poc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-swift-health-kit-poc"; path = Pods_swift_health_kit_poc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923D6DEEB1AB95EF4D8540AA4D66EF47 /* Pods-swift-health-kit-pocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-health-kit-pocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7D56164CFCDBA921B59595A4CB79169 /* Pods-swift-health-kit-pocTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-swift-health-kit-pocTests"; path = Pods_swift_health_kit_pocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83CA56639DA92D7F7EE0C5E641E3CA4 /* Pods-swift-health-kit-poc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift-health-kit-poc-umbrella.h"; sourceTree = "<group>"; };
+		A99B2D9826D5D8993E9669B2459E7789 /* Pods-swift-health-kit-pocTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift-health-kit-pocTests-umbrella.h"; sourceTree = "<group>"; };
+		BCAFD351F8DF701F445B98C6B461AF4B /* Pods-swift-health-kit-poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-health-kit-poc.release.xcconfig"; sourceTree = "<group>"; };
+		C0FAE0EAC28360C99DA4425B80013C9B /* Pods-swift-health-kit-pocTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-health-kit-pocTests-Info.plist"; sourceTree = "<group>"; };
+		C169BE7FE0B32378C25B5FD7DDD74BC6 /* Pods-swift-health-kit-pocTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift-health-kit-pocTests.modulemap"; sourceTree = "<group>"; };
+		C9E7A3E8B3096080DEB168158D81962B /* Pods-swift-health-kit-poc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-health-kit-poc.debug.xcconfig"; sourceTree = "<group>"; };
+		D78F3493B0EF54F23FC634CADBFEB110 /* Pods-swift-health-kit-pocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-health-kit-pocTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5BB0ABA00F2A3F04443BCC468D68818 /* Pods-swift-health-kit-poc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift-health-kit-poc-dummy.m"; sourceTree = "<group>"; };
+		E74F45217036F4D2203FBB73C637A276 /* Pods-swift-health-kit-poc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-health-kit-poc-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CDC8619BFDBD10A3F430EF3B6A11E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053B205855600C6CE609A2C6829EA158 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7807B021F9AA24116A15A2430E2351F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7AB1C309CF7F9D3A27C8E01C9D58A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC919B64BF8EE67B9C3F4DBE68294094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC25762C1A124D775E20B31121E29F8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33097EC4A34CF9D5E283259AA90A795A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907DF9A27F73688A0F814CA651B68C61 /* Pods-swift-health-kit-poc */,
+				0454A7692EA2EBE412B0E657DFCF1116 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */,
+				A7D56164CFCDBA921B59595A4CB79169 /* Pods-swift-health-kit-pocTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		661A4007441CEE1E183A0A86D023624C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8485B50DFDBE70D1EADBF4EAC7AE0A /* Pods-swift-health-kit-poc */,
+				79FF9AF822E34AA1071CAC66DB483975 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */,
+				FE06760CDFC632126D2A463C9A792A20 /* Pods-swift-health-kit-pocTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79FF9AF822E34AA1071CAC66DB483975 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D692972865ED5176A0AC2A42CAFA989 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.modulemap */,
+				489B1698488EBAD6C96D577B5B5BC025 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-acknowledgements.markdown */,
+				1DE43744FCACEA880070266F9F3F1B83 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-acknowledgements.plist */,
+				4AAC2184482DAE349041B83B49F7339A /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-dummy.m */,
+				00B757424F47FAE803BD8D45492A452F /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-Info.plist */,
+				82D133CDF10D88E8B13C6213B1A0C105 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-umbrella.h */,
+				288AAD3617262C588C683B5058F85FF5 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.debug.xcconfig */,
+				5483881AA5F2AC77FB88C8892FD24DF4 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.release.xcconfig */,
+			);
+			name = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests";
+			path = "Target Support Files/Pods-swift-health-kit-poc-swift-health-kit-pocUITests";
+			sourceTree = "<group>";
+		};
+		CA8485B50DFDBE70D1EADBF4EAC7AE0A /* Pods-swift-health-kit-poc */ = {
+			isa = PBXGroup;
+			children = (
+				4F5F94C038EF16FB729A09ACC8B43085 /* Pods-swift-health-kit-poc.modulemap */,
+				3A771AC2C84D31DE3593A3E647BEC78A /* Pods-swift-health-kit-poc-acknowledgements.markdown */,
+				0A93EB04C01FFB820BA47D81EAA9CF5A /* Pods-swift-health-kit-poc-acknowledgements.plist */,
+				E5BB0ABA00F2A3F04443BCC468D68818 /* Pods-swift-health-kit-poc-dummy.m */,
+				E74F45217036F4D2203FBB73C637A276 /* Pods-swift-health-kit-poc-Info.plist */,
+				A83CA56639DA92D7F7EE0C5E641E3CA4 /* Pods-swift-health-kit-poc-umbrella.h */,
+				C9E7A3E8B3096080DEB168158D81962B /* Pods-swift-health-kit-poc.debug.xcconfig */,
+				BCAFD351F8DF701F445B98C6B461AF4B /* Pods-swift-health-kit-poc.release.xcconfig */,
+			);
+			name = "Pods-swift-health-kit-poc";
+			path = "Target Support Files/Pods-swift-health-kit-poc";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				33097EC4A34CF9D5E283259AA90A795A /* Products */,
+				661A4007441CEE1E183A0A86D023624C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE06760CDFC632126D2A463C9A792A20 /* Pods-swift-health-kit-pocTests */ = {
+			isa = PBXGroup;
+			children = (
+				C169BE7FE0B32378C25B5FD7DDD74BC6 /* Pods-swift-health-kit-pocTests.modulemap */,
+				7B5FAB31D36A1409E03803A7F26AA39A /* Pods-swift-health-kit-pocTests-acknowledgements.markdown */,
+				40C7F2D734116B9E8A03FBC8A75C9A8C /* Pods-swift-health-kit-pocTests-acknowledgements.plist */,
+				8D15589EE23A666215C968667D25EE94 /* Pods-swift-health-kit-pocTests-dummy.m */,
+				C0FAE0EAC28360C99DA4425B80013C9B /* Pods-swift-health-kit-pocTests-Info.plist */,
+				A99B2D9826D5D8993E9669B2459E7789 /* Pods-swift-health-kit-pocTests-umbrella.h */,
+				923D6DEEB1AB95EF4D8540AA4D66EF47 /* Pods-swift-health-kit-pocTests.debug.xcconfig */,
+				D78F3493B0EF54F23FC634CADBFEB110 /* Pods-swift-health-kit-pocTests.release.xcconfig */,
+			);
+			name = "Pods-swift-health-kit-pocTests";
+			path = "Target Support Files/Pods-swift-health-kit-pocTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA129A76F697C68FA383C48436F1B887 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C7798C4693A193C3865FA9935D83E8 /* Pods-swift-health-kit-pocTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7A32EFD073404D2618B102F7619DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD2C608250B76F60544DA00C935C901 /* Pods-swift-health-kit-poc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F755A74BE023B849918364879BC9CE8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D487F4F6BC64AB42984693A80518567C /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9D2044EFB907DE342519817F9F31CAC2 /* Pods-swift-health-kit-pocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21570734F6C9B2A6BD396B28C4449C6B /* Build configuration list for PBXNativeTarget "Pods-swift-health-kit-pocTests" */;
+			buildPhases = (
+				CA129A76F697C68FA383C48436F1B887 /* Headers */,
+				46A02FF11407185A5F8307DC1A3FB958 /* Sources */,
+				EC919B64BF8EE67B9C3F4DBE68294094 /* Frameworks */,
+				87DAFF090E2F6291316C5C583084A1CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E88A18AEB725CE533268ED7FDECEAA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-swift-health-kit-pocTests";
+			productName = Pods_swift_health_kit_pocTests;
+			productReference = A7D56164CFCDBA921B59595A4CB79169 /* Pods-swift-health-kit-pocTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEE669893BA6EAC7D74074466657AC8C /* Pods-swift-health-kit-poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47C88C5BB10E0A82407B0FF85977EE5 /* Build configuration list for PBXNativeTarget "Pods-swift-health-kit-poc" */;
+			buildPhases = (
+				EE7A32EFD073404D2618B102F7619DE9 /* Headers */,
+				AEE3BCCA0BDC29D952B74FBF80FBA535 /* Sources */,
+				02CDC8619BFDBD10A3F430EF3B6A11E4 /* Frameworks */,
+				06BCBC8EAB6770FB78C2F9E3E9A4E02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-swift-health-kit-poc";
+			productName = Pods_swift_health_kit_poc;
+			productReference = 907DF9A27F73688A0F814CA651B68C61 /* Pods-swift-health-kit-poc */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAEEB33EFD38EC86E05E215C3CED4E3A /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B7D8813E80E8DB5EB94F2D114AFB97 /* Build configuration list for PBXNativeTarget "Pods-swift-health-kit-poc-swift-health-kit-pocUITests" */;
+			buildPhases = (
+				F755A74BE023B849918364879BC9CE8E /* Headers */,
+				4F7B0ED3A78AC185500BA5DE3D40A028 /* Sources */,
+				7807B021F9AA24116A15A2430E2351F0 /* Frameworks */,
+				08C9CDBC9F294A97B91F0F95CCFF3B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-swift-health-kit-poc-swift-health-kit-pocUITests";
+			productName = Pods_swift_health_kit_poc_swift_health_kit_pocUITests;
+			productReference = 0454A7692EA2EBE412B0E657DFCF1116 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 33097EC4A34CF9D5E283259AA90A795A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE669893BA6EAC7D74074466657AC8C /* Pods-swift-health-kit-poc */,
+				CAEEB33EFD38EC86E05E215C3CED4E3A /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests */,
+				9D2044EFB907DE342519817F9F31CAC2 /* Pods-swift-health-kit-pocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06BCBC8EAB6770FB78C2F9E3E9A4E02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C9CDBC9F294A97B91F0F95CCFF3B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DAFF090E2F6291316C5C583084A1CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A02FF11407185A5F8307DC1A3FB958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9720C392A2AF1F352D8A3A77EE3AED52 /* Pods-swift-health-kit-pocTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7B0ED3A78AC185500BA5DE3D40A028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4DCB4F0B238B41DC65811D882E7AE1 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE3BCCA0BDC29D952B74FBF80FBA535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980ADC34C03B41077EBB1789A9FFF5F /* Pods-swift-health-kit-poc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E88A18AEB725CE533268ED7FDECEAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-swift-health-kit-poc";
+			target = BEE669893BA6EAC7D74074466657AC8C /* Pods-swift-health-kit-poc */;
+			targetProxy = FD3F29E704E64CA94498D6BC768066A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B20EF2D5B24A6139F8D9D6FD7024E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923D6DEEB1AB95EF4D8540AA4D66EF47 /* Pods-swift-health-kit-pocTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-health-kit-pocTests/Pods-swift-health-kit-pocTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-health-kit-pocTests/Pods-swift-health-kit-pocTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		460EC278394A033B7303131C7AED3843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCAFD351F8DF701F445B98C6B461AF4B /* Pods-swift-health-kit-poc.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-health-kit-poc/Pods-swift-health-kit-poc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-health-kit-poc/Pods-swift-health-kit-poc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		519C0CB33FF15CE887C759E8684966CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E7A3E8B3096080DEB168158D81962B /* Pods-swift-health-kit-poc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-health-kit-poc/Pods-swift-health-kit-poc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-health-kit-poc/Pods-swift-health-kit-poc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54B2C9DA9F1DC3580119BCC8F402342E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5483881AA5F2AC77FB88C8892FD24DF4 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-health-kit-poc-swift-health-kit-pocUITests/Pods-swift-health-kit-poc-swift-health-kit-pocUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-health-kit-poc-swift-health-kit-pocUITests/Pods-swift-health-kit-poc-swift-health-kit-pocUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F7DEDC056F6B69BEE0B971AC8A1C0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288AAD3617262C588C683B5058F85FF5 /* Pods-swift-health-kit-poc-swift-health-kit-pocUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-health-kit-poc-swift-health-kit-pocUITests/Pods-swift-health-kit-poc-swift-health-kit-pocUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-health-kit-poc-swift-health-kit-pocUITests/Pods-swift-health-kit-poc-swift-health-kit-pocUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E83CB21B8D92D59F8A859A220509FF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78F3493B0EF54F23FC634CADBFEB110 /* Pods-swift-health-kit-pocTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-health-kit-pocTests/Pods-swift-health-kit-pocTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-health-kit-pocTests/Pods-swift-health-kit-pocTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21570734F6C9B2A6BD396B28C4449C6B /* Build configuration list for PBXNativeTarget "Pods-swift-health-kit-pocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B20EF2D5B24A6139F8D9D6FD7024E30 /* Debug */,
+				E83CB21B8D92D59F8A859A220509FF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47C88C5BB10E0A82407B0FF85977EE5 /* Build configuration list for PBXNativeTarget "Pods-swift-health-kit-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519C0CB33FF15CE887C759E8684966CD /* Debug */,
+				460EC278394A033B7303131C7AED3843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B7D8813E80E8DB5EB94F2D114AFB97 /* Build configuration list for PBXNativeTarget "Pods-swift-health-kit-poc-swift-health-kit-pocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7DEDC056F6B69BEE0B971AC8A1C0B2 /* Debug */,
+				54B2C9DA9F1DC3580119BCC8F402342E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

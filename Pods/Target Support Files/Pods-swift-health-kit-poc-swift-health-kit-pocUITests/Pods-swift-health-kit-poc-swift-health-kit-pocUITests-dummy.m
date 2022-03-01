@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_swift_health_kit_poc_swift_health_kit_pocUITests : NSObject
+@end
+@implementation PodsDummy_Pods_swift_health_kit_poc_swift_health_kit_pocUITests
+@end
